@@ -1,0 +1,10 @@
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\StructureMapConsoleApp.exe.config
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\StructureMapConsoleApp.exe
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\StructureMapConsoleApp.pdb
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\StructureMap.dll
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\StructureMap.xml
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\obj\Debug\StructureMapConsoleApp.csprojResolveAssemblyReference.cache
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\obj\Debug\StructureMapConsoleApp.exe
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\obj\Debug\StructureMapConsoleApp.pdb
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\Topshelf.dll
+D:\TethrApps\StructureMapConsoleApp\StructureMapConsoleApp\bin\Debug\Topshelf.xml
