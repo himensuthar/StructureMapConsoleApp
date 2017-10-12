@@ -6,7 +6,8 @@ namespace StructureMapConsoleApp
     class MyTopShelfService
     {
         public void Start()
-        {
+        {   
+         
             #region Create an Container
 
             #region Create an container instance and directly pass in the configuration
@@ -27,7 +28,7 @@ namespace StructureMapConsoleApp
             #endregion
 
             #region Create an container with Registry DSL
-            //var application = new Container(new InstanceScaner());
+            var application = new Container(new InstanceScaner());
             //var application = new Container(_=> { _.AddRegistry<InstanceScaner>(); });
             //var application = Container.For<InstanceScaner>();
             #endregion
@@ -47,19 +48,19 @@ namespace StructureMapConsoleApp
 
             #region Example2
 
-            var application = new Container();
-            application.Configure(_ => {
-                _.Scan(scanner =>
-                {
-                    scanner.TheCallingAssembly();
-                    scanner.WithDefaultConventions();
-                });
+            //var application = new Container();
+            //application.Configure(_ => {
+            //    _.Scan(scanner =>
+            //    {
+            //        scanner.TheCallingAssembly();
+            //        scanner.WithDefaultConventions();
+            //    });
 
-                //Supply value in constructor
-                _.For<WriterX>().Use<Writer>().Ctor<string>().Is("This is From Constructor");
-            });
+            //    //Supply value in constructor
+            //    _.For<WriterX>().Use<Writer>().Ctor<string>().Is("This is From Constructor");
+            //});
 
-            
+
             #endregion Example2
 
             #endregion
@@ -70,8 +71,11 @@ namespace StructureMapConsoleApp
             var managerInstance = application.GetInstance<Manager>();
             managerInstance.ManagerWriter();
             managerInstance.WriteOnMyWallFromManager();
-            #endregion Create a Instance using container
 
+
+            //var managerInstance = (Writer2)application.GetInstance<WriterX>("B");
+            //managerInstance.WriteOnMyWall("hi");
+            #endregion Create a Instance using container
         }
 
         public void Stop()

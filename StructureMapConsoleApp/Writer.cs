@@ -18,8 +18,18 @@ namespace StructureMapConsoleApp
         }
         public void WriteOnMyWall(string text)
         {
-            Console.WriteLine(text);
+            Console.WriteLine("Writer "  + text);
            
         }
     }
+
+    public class Writer2 : WriterX
+    {
+        public void WriteOnMyWall(string text)
+        {
+            Console.WriteLine("Writer2 " + text);
+
+        }
+    }
+    
 }

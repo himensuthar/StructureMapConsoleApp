@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalRegistrations.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="InstanceScaner.cs" />
     <Compile Include="Logger.cs" />
